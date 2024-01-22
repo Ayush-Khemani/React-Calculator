@@ -23,22 +23,6 @@ function App() {
 
   const values = ['C', '7', '8', '9', '/', '4', '5', '6', '*', '1', '2', '3', '-', '+', '0', '=']
 
-  const calculate = (a, opr, b) => {
-    switch (opr) {
-      case '+':
-        return a + b;
-      case '-' :
-        return a - b;
-      case '*':
-        return a * b;
-      case '/':
-        return a/b;
-      default:
-        break;
-    }
-  }
-
-
 
   return (
     <div className='outline-none w-full h-screen'>
